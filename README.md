@@ -1,12 +1,12 @@
-# Python sample app using pipenv package manager
+# Python sample app using pip package manager
 
 ## Building
 
-`pack build pipenv-sample --buildpack paketo-buildpacks/python`
+`pack build pip-sample --buildpack paketo-buildpacks/python`
 
 ## Running
 
-`docker run --interactive --tty --env PORT=8080 --publish 8080:8080 pipenv-sample`
+`docker run --interactive --tty --env PORT=8080 --publish 8080:8080 pip-sample`
 
 ## Viewing
 
